@@ -18,5 +18,4 @@ Project exploring Data Collection, Visualisation and Analysis of Sports Statisti
 
 ## Project Outline
 
-This project aim to explore techniques to predict prices of Ethereum using ML as well as twitter and Goolge trends data. Ethereum is the second bigger cryptocurrency in terms of market capitalisation as well as the pyoneer of 
-the smart contract technology. 
+This project aim to explore techniques to predict prices of Ethereum using ML as well as twitter and Goolge trends data. Ethereum is the second bigger cryptocurrency in terms of market capitalisation as well as the pyoneer of the smart contract technology. 
