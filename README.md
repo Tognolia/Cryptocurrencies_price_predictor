@@ -1,5 +1,5 @@
 # Ethereum price prediction with Social network and trends data
-# Time series analysis, sentiment analysis, web scraping, data cleaning
+
 ## Andrea Tognoli
 ### *May 2021*
 
