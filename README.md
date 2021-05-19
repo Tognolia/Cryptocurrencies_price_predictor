@@ -30,3 +30,8 @@ In order to answer to our question we will:
 - ML models to make predictions
 
 <img src="images/project_outline.jpg" width="970" height="660" />
+
+## The Data
+
+### Stock Historical price - timeseries
+With a huge amount of data available, I explored a number of different sources that I could use to collect it. There are a number of crypto exchange statistics APIs, but many of the better ones require a paid licence key. I found the best sources for data were either Binance. Kraken or Geko. I opted for Binance which I consider easier to use and offer a function for csv download. The data I decided to scrape have a time window which goes from 17-8-2017 (ETH listed on binance for first time) to 11-5-2021.
