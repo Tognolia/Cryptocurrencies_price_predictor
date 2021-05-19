@@ -69,3 +69,15 @@ In the second iteration the model uses close time and sentiment as feature to pr
 
 
 <img src="images/it2.png" width="1070" height="460" />
+
+### Third iteration
+In the third iteration the model uses close time and sentiment as feature to predict the target as well as Google trends. The results are slightly worse than in the previous model. It seems that by adding the polarity, the model doesn't improve.
+
+
+<img src="images/it3.png" width="1070" height="460" />
+
+### Fourth iteration
+In the fourth iteration the model uses close price and google trends as feature to predict the target as well as Google trends. The results by far the most accurate
+
+
+<img src="images/it4.png" width="1070" height="460" />
