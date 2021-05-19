@@ -29,4 +29,4 @@ In order to answer to our question we will:
 - Use Binance API 
 - ML models to make predictions
 
-
+![Project Outline](photos_project/Project Outlines(1).png?raw=true "Project Outline")
