@@ -86,5 +86,10 @@ In the fourth iteration the model uses close price and google trends as feature 
 ## Delivering Insights
 
 ## Next Steps
-*** Improve the sentiment analysis and the scraping hashtag/ volume
+- Improve the sentiment analysis and the scraping hashtag/ volume
+- Import the tweets volumes
+- Make the model work for a greater number of stocks
+- Neural network model to improve the accuray
+- Create a authomatic updating for the scraping/ sentiment analysis/ modelling
+
 
