@@ -29,5 +29,4 @@ In order to answer to our question we will:
 - Use Binance API 
 - ML models to make predictions
 
-![Project Outline](photos_project/Project Outlines(1).png)
 <img src="photos_project/Project Outlines(1).png" width="370" height="150" />
