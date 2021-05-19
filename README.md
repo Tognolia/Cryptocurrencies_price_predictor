@@ -64,6 +64,8 @@ In the first iteration the model uses close time as feature to predict the targe
 
 <img src="images/it1.png" width="1070" height="460" />
 
+### Second iteration
+In the second iteration the model uses close time and sentiment as feature to predict the target. The results are slightly worse than in the previous model.
 
 
 <img src="images/it2.png" width="1070" height="460" />
