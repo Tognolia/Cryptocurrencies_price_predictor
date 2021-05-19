@@ -54,4 +54,4 @@ The first step of the process was to clean the data. Multile regex lines of code
 
 At the end of the process we got a list of compound polarity, one for each tweet. Eventually, the values of this list were grouped by dates and stored in a df in Pandas.
 
-<img src="images/tweets_sentiment.png" width="670" height="860" />
+<img src="images/tweets_sentiment.png" width="1070" height="460" />
