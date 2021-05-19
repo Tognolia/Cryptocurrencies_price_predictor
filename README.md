@@ -11,7 +11,7 @@ Project exploring Data Collection, Visualisation and Prediction of crypto-stock 
 - [Project Outline](#project-outline)
 - [The Data](#the-data)
 - [Sentiment Analysis](#sentiment-analysis)
-- [Statistical Analysis](#statistical-analysis)
+- [Machine Learning](#machine-learning)
 - [Delivering Insight](#delivering-insight)
 - [Review](#review)
 
@@ -55,3 +55,15 @@ The first step of the process was to clean the data. Multile regex lines of code
 At the end of the process we got a list of compound polarity, one for each tweet. Eventually, the values of this list were grouped by dates and stored in a df in Pandas.
 
 <img src="images/tweets_sentiment.png" width="1070" height="460" />
+
+## Machine Learning
+All the model will aim to predict the price with 25 days of advance. The method used are linear regression and tree classifier.
+
+### First iteration
+In the first iteration the model uses close time as feature to predict the target. The results:
+
+<img src="images/it1.png" width="1070" height="460" />
+
+
+
+<img src="images/it2.png" width="1070" height="460" />
