@@ -10,8 +10,7 @@ Project exploring Data Collection, Visualisation and Prediction of crypto-stock 
 
 - [Project Outline](#project-outline)
 - [The Data](#the-data)
-- [The Database](#the-database)
-- [Visualisation](#visualisation)
+- [Sentiment Analysis](#sentiment-analysis)
 - [Statistical Analysis](#statistical-analysis)
 - [Delivering Insight](#delivering-insight)
 - [Review](#review)
@@ -31,6 +30,7 @@ In order to answer to our question we will:
 
 <img src="images/project_outline.jpg" width="970" height="660" />
 
+
 ## The Data
 
 ### Stock Historical price - timeseries
@@ -41,10 +41,15 @@ Since most of the famous twitter scraping API offer scraping only for limted amo
 
 Using Python I was able to automate the process of collecting and combining data from numerous days. I scraped a number of different tables into Pandas Dataframes and began to explore and clean the data. 
 
-
-
 ### Google trends
 
 Google trends data were scraped from the analysed period and  saved into a csv file. Unfortunately Google allow to scrape data only in a weekly format if the timeframe is greater than 90 days. A data linear interpolation technique of Pandas helped me to transform my weekly data into daily ones. 
 
 
+## Sentiment Analysis 
+
+The goal of the analysis was to obtain a daily mean sentiment of the tweets scraped. In oreder to run the analysis we used the Vader library.
+
+The first step of the process was to clean the data. Multile regex lines of code were used to remove re-tweets, websites, names, etc. from the tweets. Later also stop words and neutral parts of the tweets were removed. 
+
+At the end of the process we got a list of compound polarity, one for each tweet. Eventually, the values of this list were grouped by dates and stored in a df in Pandas.
