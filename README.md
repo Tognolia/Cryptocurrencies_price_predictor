@@ -53,3 +53,5 @@ The goal of the analysis was to obtain a daily mean sentiment of the tweets scra
 The first step of the process was to clean the data. Multile regex lines of code were used to remove re-tweets, websites, names, etc. from the tweets. Later also stop words and neutral parts of the tweets were removed. 
 
 At the end of the process we got a list of compound polarity, one for each tweet. Eventually, the values of this list were grouped by dates and stored in a df in Pandas.
+
+<img src="images/tweets_timeseries.png" width="970" height="660" />
