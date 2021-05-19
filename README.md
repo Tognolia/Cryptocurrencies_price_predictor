@@ -23,4 +23,10 @@ people decision on a daily basis and probably our investment choices too. Does i
 
 *QUESTION:* "Can information in the social network environment can be use as a feature to predict cryptocurrecies prices?"
 
+In order to answer to our question we will:
+- scrape Twitter using the Twint API
+- Get and adapt Google data
+- Use Binance API 
+- ML models to make predictions
+
 
