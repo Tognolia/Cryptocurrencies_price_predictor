@@ -13,7 +13,7 @@ Project exploring Data Collection, Visualisation and Prediction of crypto-stock 
 - [Sentiment Analysis](#sentiment-analysis)
 - [Machine Learning](#machine-learning)
 - [Delivering Insight](#delivering-insight)
-- [Review](#review)
+- [Next Steps](#next-steps)
 
 ## Project Outline
 
@@ -81,3 +81,10 @@ In the fourth iteration the model uses close price and google trends as feature 
 
 
 <img src="images/it4.png" width="1070" height="460" />
+
+
+## Delivering Insights
+
+## Next Steps
+*** Improve the sentiment analysis and the scraping hashtag/ volume
+
