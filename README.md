@@ -41,6 +41,8 @@ Since most of the famous twitter scraping API offer scraping only for limted amo
 
 Using Python I was able to automate the process of collecting and combining data from numerous days. I scraped a number of different tables into Pandas Dataframes and began to explore and clean the data. 
 
+[Jupyter Notebooks can be found here.](https://github.com/Tognolia/Cryptocurrencies_price_predictor/blob/main/Notebooks/Twitter_scraping_and_sentiment_analysis_fixed.ipynb.zip)
+
 ### Google trends
 
 Google trends data were scraped from the analysed period and  saved into a csv file. Unfortunately Google allow to scrape data only in a weekly format if the timeframe is greater than 90 days. A data linear interpolation technique of Pandas helped me to transform my weekly data into daily ones. 
