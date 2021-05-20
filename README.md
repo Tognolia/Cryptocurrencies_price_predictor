@@ -47,6 +47,7 @@ Using Python I was able to automate the process of collecting and combining data
 
 Google trends data were scraped from the analysed period and  saved into a csv file. Unfortunately Google allow to scrape data only in a weekly format if the timeframe is greater than 90 days. A data linear interpolation technique of Pandas helped me to transform my weekly data into daily ones. 
 
+[Jupyter Notebooks can be found here.](https://github.com/Tognolia/Cryptocurrencies_price_predictor/blob/main/Notebooks/Google_trends_interpolation.ipynb)
 
 ## Sentiment Analysis 
 
@@ -66,16 +67,22 @@ In the first iteration the model uses close time as feature to predict the targe
 
 <img src="images/it1.png" width="1070" height="460" />
 
+[The Jupyter Notebook can be found here.](https://github.com/Tognolia/Cryptocurrencies_price_predictor/blob/main/Notebooks/Data_cleaning%20%2B%20ML.ipynb)
+
 ### Second iteration
 In the second iteration the model uses close time and sentiment as feature to predict the target. The results are slightly worse than in the previous model.
 
 
 <img src="images/it2.png" width="1070" height="460" />
 
+[The Jupyter Notebook can be found here.](https://github.com/Tognolia/Cryptocurrencies_price_predictor/blob/main/Notebooks/Data_cleaning%20%2B%20ML.ipynb)
+
 ### Third iteration
 In the third iteration the model uses daily close price and daily sentiment as features as well as Google trends to predict the target . The result has substantially improved as you can see from the chart. The R2 score increased by more than 30% from the previous model. 
 
 <img src="images/it3.png" width="1070" height="460" />
+
+[The Jupyter Notebook can be found here.](https://github.com/Tognolia/Cryptocurrencies_price_predictor/blob/main/Notebooks/Last%20Iteration.ipynb)
 
 
 ## Delivering Insights
