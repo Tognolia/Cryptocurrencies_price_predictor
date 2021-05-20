@@ -71,19 +71,16 @@ In the second iteration the model uses close time and sentiment as feature to pr
 <img src="images/it2.png" width="1070" height="460" />
 
 ### Third iteration
-In the third iteration the model uses close time and sentiment as feature to predict the target as well as Google trends. The results are slightly worse than in the previous model. It seems that by adding the polarity, the model doesn't improve.
-
+In the third iteration the model uses daily close price and daily sentiment as features as well as Google trends to predict the target . The result has substantially improved as you can see from the chart. The R2 score increased by more than 30% from the previous model. 
 
 <img src="images/it3.png" width="1070" height="460" />
 
-### Fourth iteration
-In the fourth iteration the model uses close price and google trends as feature to predict the target as well as Google trends. The results by far the most accurate
-
-
-<img src="images/it4.png" width="1070" height="460" />
-
 
 ## Delivering Insights
+
+- We have shown that the search volume index is highly correlated with cryptocurrency prices both when prices rise and when they fall
+- Twitter Sentiment toward the analysed Cryptocurrency are mostly positive - Investors might have interest in making positive tweets regardless the price drops
+- Price prediction with r2 of 95% can be obtained using the adopted model
 
 ## Next Steps
 - Improve the sentiment analysis and the scraping hashtag/ volume
